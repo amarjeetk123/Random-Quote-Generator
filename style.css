@@ -39,12 +39,14 @@ body {
 
 .quotes_area i:first-child {
     margin: 3px 8px 0px 0px;
+    color: var(--blue);
 }
 
 .quotes_area i:last-child {
     display: flex;
     align-items: flex-end;
     margin-left: 8px;
+    color: var(--blue);
 }
 
 .quotes {

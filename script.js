@@ -9,7 +9,7 @@ btn.addEventListener("click" , quote_generator)
 
 function quote_generator(){
     btn.classList.add("loading")
-    btn.innerHTML = "Loading Qoute"
+    btn.innerHTML = "Loading Quote"
 let url = "http://api.quotable.io/random"
 fetch(url).then((res) => res.json().then((result) =>{
         // console.log(result)
